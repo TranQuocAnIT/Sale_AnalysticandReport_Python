@@ -1,4 +1,5 @@
 Đây là dự án phân tích dữ liệu doanh số bán hàng sử dụng Python, Pandas và Matplotlib. Dự án tập trung vào việc xử lý dữ liệu từ các file CSV của năm 2019 và xây dựng báo cáo thông qua các task cụ thể.
+![image](https://github.com/user-attachments/assets/7b4287c1-249b-4bfd-a28f-784375ec9253)
 
 Dự án này thực hiện phân tích dữ liệu bán hàng của ZoneTech (Mỹ) được tổng hợp thành 12 file csv với hơn 20000 dòng dữ liệu với 7 cột dữ  trên KAGGLE tói hơn với mục đích:
 
@@ -159,6 +160,74 @@ Duy trì cả 2 nhóm: Sản phẩm giá rẻ (tăng lượng khách) và giá c
 
 ![image](https://github.com/user-attachments/assets/ebf8be22-8eee-4486-871d-e66cd93b7396)
 
+![image](https://github.com/user-attachments/assets/00daa0a3-8933-410f-8881-bdafad559fc6)
+![image](https://github.com/user-attachments/assets/8831baf5-8aec-4423-bc42-f114824b2551)
+![image](https://github.com/user-attachments/assets/bba7929a-9523-4c0b-93e4-e240f2cfd663)
+![image](https://github.com/user-attachments/assets/2c8abe0b-f3b7-4692-ab14-953f58362552)
 
+Tại sao San Francisco dẫn đầu?
+Trung tâm công nghệ: Dân cư có thu nhập cao, nhu cầu mua sắm lớn (điện tử, phụ kiện).
 
+Hoạt động thương mại sôi động: Nhiều cửa hàng trực tuyến hoặc vật lý tập trung tại đây.
 
+Chiến dịch marketing hiệu quả: Ưu đãi địa phương hoặc giao hàng nhanh.
+
+b. Sự chênh lệch giữa các thành phố
+Thành phố lớn vs. nhỏ:
+
+SF, LA, NYC chiếm tổng cộng 53.4% đơn hàng → Tập trung kinh tế.
+
+Austin, Portland dưới 6% → Cần phân tích thêm về nhân khẩu học hoặc hạ tầng logistics.
+
+Khác biệt theo vùng:
+
+Miền Tây (SF, LA) chiếm 40%, trong khi miền Đông (NYC, Boston) chỉ 24.1%.
+
+c. Cơ hội cải thiện
+Tăng thị phần tại thành phố nhỏ:
+
+Ưu đãi vận chuyển hoặc khuyến mãi đặc biệt cho Austin, Dallas.
+
+Tối ưu hóa tại thành phố lớn:
+
+Mở rộng kho hàng ở SF/LA để giảm thời gian giao hàng.
+![image](https://github.com/user-attachments/assets/297a82b6-86fc-4565-9442-661509b1121e)
+![image](https://github.com/user-attachments/assets/50647fc0-2926-41ea-9f41-66e318a9b17d)
+![image](https://github.com/user-attachments/assets/c7327472-efc7-491d-9834-5d8e9f807c47)
+
+Sản phẩm bán ít nhất xuất hiện nhiều lần:
+
+"Minimize Machine": Bán chỉ 2 đơn/tháng (Tháng 1 và 2).
+
+Các sản phẩm khác: Mỗi tháng có một sản phẩm khác nhau nằm ở vị trí cuối.
+
+Xu hướng chung:
+
+Sản phẩm bán chậm thường là hàng chuyên dụng hoặc giá cao (ví dụ: máy móc công nghiệp).
+
+Không có sản phẩm phổ thông (pin, cáp sạc) trong danh sách này.
+
+4. Nhận xét chi tiết
+a. Nguyên nhân bán chậm
+Nhu cầu thị trường thấp:
+
+"Minimize Machine" có thể là sản phẩm ngách, chỉ phục vụ nhóm khách hàng đặc thù.
+
+Giá cả không hợp lý:
+
+Sản phẩm giá cao nhưng không đủ giá trị gia tăng để thuyết phục khách hàng.
+
+Thiếu tiếp cận khách hàng:
+
+Không được quảng cáo đúng đối tượng hoặc hiển thị kém trên website.
+
+b. Gợi ý cải thiện
+Với sản phẩm ngách (ví dụ: Minimize Machine):
+
+Bundle với sản phẩm phổ biến: Giảm giá khi mua kèm với sản phẩm bán chạy.
+
+Target marketing: Quảng cáo đến đúng nhóm khách hàng doanh nghiệp hoặc kỹ thuật.
+
+Với sản phẩm theo mùa:
+
+Điều chỉnh chiến dịch quảng cáo theo thời điểm (ví dụ: máy móc nông nghiệp bán vào mùa vụ).
